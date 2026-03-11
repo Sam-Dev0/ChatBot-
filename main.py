@@ -1,4 +1,4 @@
-#Para Correrlo usar python -m uvicorn main:app --reload
+#Para Correrlo usar "python -m uvicorn main:app --reload" (sin las comillas)
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse, JSONResponse
 import pandas as pd
